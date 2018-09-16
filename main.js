@@ -44,6 +44,7 @@ class TicTacToe {
                         round = 0
                         return
                     } else if (round === 9) {
+                        this.printBoard()
                         console.log("Draw")
                         return
                     } else {                        
